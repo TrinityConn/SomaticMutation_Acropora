@@ -15,10 +15,10 @@ cd  /storage/group/dut374/default/trinity/rawdata
 
 
 bbduk.sh \
-in1=/storage/group/dut374/default/trinity/rawdata/Unknown_BK461-020033_1.fq.gz \
-in2=/storage/group/dut374/default/trinity/rawdata/Unknown_BK461-020033_2.fq.gz \
-out1=~/scratch/20033_1trimmed.fq.gz \
-out2=~/scratch/20033_2trimmed.fq.gz \
+in1=/storage/group/dut374/default/trinity/rawdata/*_1.fq.gz \
+in2=/storage/group/dut374/default/trinity/rawdata/*_2.fq.gz \
+out1=~/scratch/*_1trimmed.fq.gz \
+out2=~/scratch/*_2trimmed.fq.gz \
 ref=/storage/group/ibb3/default/tools/bbmap/resources/adapters.fa \
 ktrim=r \
 k=23 \
